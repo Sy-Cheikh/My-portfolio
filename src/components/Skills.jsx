@@ -17,8 +17,11 @@ import github from '../assets/img/nav-icon2.svg';
 import gitlab from '../assets/img/gitlab.svg';
 import jira from '../assets/img/jira-img.svg';
 import notion from '../assets/img/notion-img.svg';
+import mongo from '../assets/img/mongodb.svg';
+import node from '../assets/img/node-logo.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
+import { NodeMinusFill } from "react-bootstrap-icons";
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
@@ -120,6 +123,14 @@ export const Skills = () => {
                             <div className="item">
                                 <img className="im-logo" src={notion} alt="Image" />
                                 <h5 className="item-text">Notion</h5>
+                            </div>
+                            <div className="item">
+                                <img className="im-logo" src={node} alt="Image" />
+                                <h5 className="item-text">Node</h5>
+                            </div>
+                            <div className="item">
+                                <img className="im-logo" src={mongo} alt="Image" />
+                                <h5 className="item-text">Mongo</h5>
                             </div>
                         </Carousel>
                        </div>
