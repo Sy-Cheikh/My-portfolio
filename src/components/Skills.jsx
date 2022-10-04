@@ -126,11 +126,11 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img className="im-logo" src={node} alt="Image" />
-                                <h5 className="item-text">Node</h5>
+                                <h5 className="item-text">NodeJS</h5>
                             </div>
                             <div className="item">
                                 <img className="im-logo" src={mongo} alt="Image" />
-                                <h5 className="item-text">Mongo</h5>
+                                <h5 className="item-text">MongoDB</h5>
                             </div>
                         </Carousel>
                        </div>
